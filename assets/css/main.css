@@ -2580,6 +2580,10 @@ ul.actions li:first-child {
     margin-top: 0;
 }
 
+.footer-custom li a.fa-envelope {
+    color: #3399ff !important;
+}
+
 
 
 
