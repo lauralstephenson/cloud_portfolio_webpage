@@ -2561,8 +2561,15 @@ footer {
 	margin-top: 20px;
 }
 
+ul.social li a i {
+    color: #ff6600 !important; /* Ensure icons are the right color */
+    fill: #ff6600 !important; /* Force fill color if fill is affecting it */
+}
 
-
+ul.social li a:hover i {
+    color: #00ccff !important; /* Ensure icons change on hover */
+    fill: #00ccff !important; /* Change fill color on hover */
+}
 
 
 
