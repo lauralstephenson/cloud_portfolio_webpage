@@ -2561,16 +2561,25 @@ footer {
 	margin-top: 20px;
 }
 
+ul.social li a {
+    color: #ff6600 !important;  /* This will affect the anchor link itself */
+    font-size: 24px !important;  /* Ensure the icons are big enough */
+}
+
+ul.social li a:hover {
+    color: #00ccff !important;  /* On hover, the color changes */
+}
+
 ul.social li a i.fas,
 ul.social li a i.fab {
-    color: #ff6600 !important;
-    fill: #ff6600 !important;
+    color: #ff6600 !important;  /* For Font Awesome Solid and Brand icons */
+    fill: #ff6600 !important;  /* Ensure the fill color applies as well */
 }
 
 ul.social li a:hover i.fas,
 ul.social li a:hover i.fab {
-    color: #00ccff !important;
-    fill: #00ccff !important;
+    color: #00ccff !important;  /* Hover effect for icons */
+    fill: #00ccff !important;   /* Hover effect for icons */
 }
 
 
