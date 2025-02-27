@@ -2471,42 +2471,15 @@ input, select, textarea {
 
 	}
 
-/* Additional Styling */
-.center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-/* Additional Styling */
-.center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-/* Additional Styling */
-.center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-/* Additional Styling */
-.center-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
+	/* Additional Styling */
+	.center-content {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    text-align: center;
+	}
+	
 	/* Footer Custom Styles */
 	.footer-custom {
 		background-color: #333; /* Background color */
@@ -2514,65 +2487,65 @@ input, select, textarea {
 		padding: 10px 0;
 		text-align: center;
 	}
-
+	
 	.footer-custom h3 {
 		color: #ffffff; /* Heading color */
 	}
-
+	
 	.footer-custom ul {
 		list-style: none;
 		padding: 0;
 		display: flex;
 		justify-content: center; /* Center the icons */
 	}
-
+	
 	.footer-custom li {
 		color: #ffffff !important; /* List item text color */
 		margin: 0 10px; /* Space between icons */
 	}
-
+	
 	/* Default color for all icons */
 	.footer-custom li a {
 		color: #3399ff !important; /* Set default color to blue */
 		transition: color 0.3s ease; /* Smooth transition for hover effect */
 		font-size: 26px; /* Set icon size */
 	}
-
+	
 	/* Hover effect for all icons */
 	.footer-custom li a:hover {
 		color: #c0c0c0 !important; /* Silver color on hover */
 	}
-
+	
 	/* Specific color for the last icon */
 	.footer-custom li:last-child a {
 		color: #3399ff !important; /* Last icon stays blue */
 	}
-
+	
 	/* Envelope icon (default blue and hover to silver) */
 	.footer-custom li a.fa-envelope {
 		color: #3399ff !important; /* Envelope icon stays blue */
 		font-size: 26px !important; /* Ensure the envelope icon has the same size */
 	}
-
+	
 	.footer-custom li a.fa-envelope:hover {
 		color: #c0c0c0 !important; /* Envelope icon turns silver on hover */
 	}
-
+	
 	/* LinkedIn and GitHub specific colors */
 	.footer-custom li a.fa-linkedin-in {
 		color: #0077b5 !important; /* LinkedIn blue */
 	}
-
+	
 	.footer-custom li a.fa-github {
 		color: #fff !important; /* GitHub white */
 	}
-
+	
 	/* LinkedIn and GitHub hover effect */
 	.footer-custom li a.fa-linkedin-in:hover,
 	.footer-custom li a.fa-github:hover {
 		color: #c0c0c0 !important; /* Silver on hover for both LinkedIn and GitHub */
 	}
-
+	
 	/* Social icons (before pseudo-element) */
 	ul.social li a:before {
 		color: inherit !important; /* Ensures it takes color from the icon */
@@ -2580,31 +2553,31 @@ input, select, textarea {
 		box-shadow: none !important;
 		text-shadow: none !important;
 	}
-
+	
 	/* Actions Styles */
 	ul.actions {
 		margin: 0;
 	}
-
+	
 	ul.actions li {
 		display: block;
 		margin: 15px 0 0 0;
 	}
-
+	
 	ul.actions li:first-child {
 		margin-top: 0;
 	}
-
+	
 	/* Specific styles for envelope icon */
 	.footer-custom li a.fa-envelope {
 		color: #3399ff !important; /* Set default blue for envelope icon */
 		font-size: 26px !important; /* Explicitly set the size */
 	}
-
+	
 	.footer-custom li a.fa-envelope:hover {
 		color: #c0c0c0 !important; /* Hover color: silver */
 	}
-
+	
 	/* Fix for the design credit text size */
 	.footer-custom #copyright li a {
 		font-size: 14px !important; /* Smaller font size for the design credit link */
