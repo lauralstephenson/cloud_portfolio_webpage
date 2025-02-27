@@ -2582,6 +2582,55 @@ ul.social li a:hover i.fab {
     fill: #00ccff !important;   /* Hover effect for icons */
 }
 
+/* Social Icon Container */
+ul.social li a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    top: 0;
+    position: relative;
+    background-color: #444; /* Default background */
+    color: #fff; /* Default icon color */
+    text-align: center;
+    line-height: 48px; /* Centers the icon vertically */
+    transition: top 0.2s ease-in-out;
+    font-size: 24px; /* Set the icon size */
+}
+
+/* Ensure the icon inside the link is centered */
+ul.social li a i {
+    display: inline-block;
+    font-size: inherit; /* Inherit font size from the parent */
+    vertical-align: middle; /* Ensures vertical alignment */
+    color: inherit; /* Inherit color from parent */
+}
+
+/* Icon hover effect */
+ul.social li a:hover {
+    top: -5px;
+}
+
+ul.social li a:hover i {
+    color: #00ccff; /* Hover color for the icon */
+}
+
+/* Specific background color for each social platform */
+ul.social li a.fa-twitter {
+    background-color: #2DAAE4;
+}
+
+ul.social li a.fa-facebook-f {
+    background-color: #3C5A98;
+}
+
+ul.social li a.fa-linkedin-in {
+    background-color: #006599;
+}
+
+/* ... add more for other icons ... */
+
+
 
 
 
