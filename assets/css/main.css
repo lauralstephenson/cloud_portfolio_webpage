@@ -2470,163 +2470,95 @@ input, select, textarea {
 
 	}
 
-	/* Additional Styling */
-	.center-content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		text-align: center;
+		/* Ensure no unwanted styles are applied */
+	.social li a::before,
+	.social li a::after {
+		content: none !important;
+		display: none !important;
+		background-image: none !important;
+		border: none !important;
+		box-shadow: none !important;
+		appearance: none !important;
 	}
 
+	/* Footer Custom Styles */
+	.footer-custom {
+		background-color: #333;
+		color: #ffffff;
+		padding: 10px 0;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-/* Footer Custom Styles */
-.footer-custom {
-	background-color: #333;
-	color: #ffffff;
-	padding: 10px 0;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+	/* Social icons container */
+	.social {
+		list-style: none;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		margin: 0;
+	}
 
-/* Footer headings */
-.footer-custom h3 {
-	color: #ffffff;
-}
+	/* Each social icon */
+	.social li {
+		margin: 0 10px;
+	}
 
-/* Social icons container */
-.footer-custom ul.social {
-	list-style: none;
-	padding: 0;
-	display: flex;
-	justify-content: center; /* Center the icons */
-	margin: 0; /* Added for safety */
-}
+	/* Social icon links */
+	.social li a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 48px;
+		height: 48px;
+		border-radius: 6px;
+		text-decoration: none;
+		color: #ffffff !important; /* Ensure icons are white */
+		font-size: 26px;
+		background-color: #444 !important; /* Default background color for other icons */
+		border: none !important; /* Remove any borders */
+		box-shadow: none !important; /* Remove any shadows */
+		appearance: none !important; /* Remove default appearance */
+		position: relative; /* Ensure no positioning issues */
+	}
 
-/* Each social icon */
-.footer-custom li {
-	margin: 0 10px; /* Space between icons */
-}
+	/* Icon inside link */
+	.social li a i {
+		color: #ffffff !important; /* Ensure icon color is white */
+		border: none !important; /* Remove any borders */
+		box-shadow: none !important; /* Remove any shadows */
+		appearance: none !important; /* Remove default appearance */
+		position: relative; /* Ensure no positioning issues */
+		width: 100%; /* Ensure it takes full width */
+		height: 100%; /* Ensure it takes full height */
+		line-height: 48px; /* Center text vertically */
+	}
 
-/* Social icon links */
-.footer-custom li a {
-	font-size: 26px;
-	color: #3399ff !important; /* Default icon color: blue */
-	transition: color 0.3s ease;
-}
+	/* LinkedIn specific styles */
+	.social li a.fa-linkedin-in {
+		background-color: #0077b5 !important; /* Blue background for LinkedIn */
+	}
 
-/* Hover effect */
-.footer-custom li a:hover {
-	color: #c0c0c0 !important; /* Silver on hover */
-}
+	/* GitHub specific styles */
+	.social li a.fa-github {
+		background-color: #333 !important; /* Background color for GitHub */
+	}
 
-/* Specific icon colors */
-.footer-custom li a.fa-linkedin-in {
-	color: #0077b5 !important; /* LinkedIn blue */
-}
+	/* Hover effect for all icons */
+	.social li a:hover i {
+		color: #c0c0c0 !important; /* Silver on hover */
+	}
 
-.footer-custom li a.fa-github {
-	color: #ffffff !important; /* GitHub white */
-}
-
-.footer-custom li a.fa-envelope {
-	color: #3399ff !important; /* Envelope default blue */
-	font-size: 26px !important; /* Explicit size */
-}
-
-.footer-custom li a.fa-envelope:hover {
-	color: #c0c0c0 !important; /* Silver on hover */
-}
-
-/* Copyright link */
-.footer-custom #copyright li a {
-	font-size: 14px !important; /* Smaller design credit text */
-	color: #ffffff !important;
-}
-
-/* Social icon before pseudo-element (clean inheritance) */
-ul.social li a:before {
-	color: inherit !important;
-	background-color: transparent !important;
-	box-shadow: none !important;
-	text-shadow: none !important;
-}
-
-/* Overall footer */
-footer {
-	text-align: center;
-	margin-top: 20px;
-}
-
-ul.social li a {
-    color: #ff6600 !important;  /* This will affect the anchor link itself */
-    font-size: 24px !important;  /* Ensure the icons are big enough */
-}
-
-ul.social li a:hover {
-    color: #00ccff !important;  /* On hover, the color changes */
-}
-
-ul.social li a i.fas,
-ul.social li a i.fab {
-    color: #ff6600 !important;  /* For Font Awesome Solid and Brand icons */
-    fill: #ff6600 !important;  /* Ensure the fill color applies as well */
-}
-
-ul.social li a:hover i.fas,
-ul.social li a:hover i.fab {
-    color: #00ccff !important;  /* Hover effect for icons */
-    fill: #00ccff !important;   /* Hover effect for icons */
-}
-
-/* Social Icon Container */
-ul.social li a {
-    display: block;
-    width: 48px;
-    height: 48px;
-    border-radius: 6px;
-    top: 0;
-    position: relative;
-    background-color: #444; /* Default background */
-    color: #fff; /* Default icon color */
-    text-align: center;
-    line-height: 48px; /* Centers the icon vertically */
-    transition: top 0.2s ease-in-out;
-    font-size: 24px; /* Set the icon size */
-}
-
-/* Ensure the icon inside the link is centered */
-ul.social li a i {
-    display: inline-block;
-    font-size: inherit; /* Inherit font size from the parent */
-    vertical-align: middle; /* Ensures vertical alignment */
-    color: inherit; /* Inherit color from parent */
-}
-
-/* Icon hover effect */
-ul.social li a:hover {
-    top: -5px;
-}
-
-ul.social li a:hover i {
-    color: #00ccff; /* Hover color for the icon */
-}
-
-/* Specific background color for each social platform */
-ul.social li a.fa-twitter {
-    background-color: #2DAAE4;
-}
-
-ul.social li a.fa-facebook-f {
-    background-color: #3C5A98;
-}
-
-ul.social li a.fa-linkedin-in {
-    background-color: #006599;
-}
+	/* Ensure text for "Find me on..." is readable */
+	.find-me-on {
+		color: #ffffff !important; /* Ensure text is white */
+		font-weight: bold !important; /* Make the text bold for readability */
+		font-size: 24px !important; /* Adjust font size for better readability */
+		text-align: center !important; /* Center-align the text */
+	}
 
 /* ... add more for other icons ... */
 
