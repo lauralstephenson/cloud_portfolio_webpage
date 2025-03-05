@@ -1,0 +1,88 @@
+/* Footer Custom Styles */
+.footer-custom {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Social icons container */
+.social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Each social icon */
+.social li {
+    margin: 0 10px;
+}
+
+/* Social icon links */
+.social li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 26px;
+    background-color: #444; /* Default background color for other icons */
+    border: none; /* Remove any borders */
+    box-shadow: none; /* Remove any shadows */
+    appearance: none; /* Remove default appearance */
+}
+
+/* Icon inside link */
+.social li a i {
+    color: inherit;
+    border: none; /* Remove any borders */
+    box-shadow: none; /* Remove any shadows */
+    appearance: none; /* Remove default appearance */
+}
+
+/* LinkedIn specific styles */
+.social li a.fa-linkedin-in {
+    background-color: #0077b5 !important; /* Blue background for LinkedIn */
+    border: none !important; /* Remove any borders */
+    box-shadow: none !important; /* Remove any shadows */
+    appearance: none !important; /* Remove default appearance */
+}
+
+/* Hover effect for all icons */
+.social li a:hover i {
+    color: #c0c0c0; /* Silver on hover */
+    border: none; /* Remove any borders */
+    box-shadow: none; /* Remove any shadows */
+    appearance: none; /* Remove default appearance */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Test body style*/
+body {
+    background-color: blue; /* Test background color */
+}
