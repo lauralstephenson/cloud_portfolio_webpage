@@ -2534,26 +2534,18 @@ input, select, textarea {
 		margin-bottom: 10px;
 	}
 
+	/* Force footer readability */
+	ul#copyright {
+		color: #ffffff !important;
+		list-style: none;
+		padding-left: 0;
+	}
+
+
+
+
+
+
 	/* ... add more for other icons ... */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
