@@ -1,0 +1,10 @@
+# Ignore Terraform portfolio folder
+laura_stephenson_portfolio_terraform/
+
+# Ignore environment files
+.env
+
+# Optional: VSCode settings, OS files, Python cache
+.vscode/
+__pycache__/
+.DS_Store
